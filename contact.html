@@ -37,7 +37,7 @@
 						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="La Panthère - retour à l'accueil" height="40"/></a>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-						<ul class="site-navigation nav navbar-nav">
+						<ul role="navigation" class="site-navigation nav navbar-nav">
 							<li>
 								<a href="index.html">Accueil</a>
 							</li>
@@ -76,30 +76,29 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-								<div class="form-group">
-									<label>
+								<div role=group aria-labelledby="coordonnees">
+									<label for="name">
 										Nom
 									</label>
-									<input id="name" class="form-control" required />
+									<input id="name" type="text" placeholder="John Doe" aria-labelledby="nom"  class="form-control" required />
 								</div>
-								<div class="form-group">
-									<label>
+									<label for="email">
 										Adresse email
 									</label>
-									<input id="email" class="form-control" type="email" required />
-								</div>
+									<input id="email" placeholder="xxxx@email.xx" aria-labelledby="email" aria-describedby="email-format" aria-required="true" aria-invalid="false" class="form-control" type="email" required />
+									<span id="email-format" class="hidden">xxxx@email.xx</span>
 								<div class="form-group">
 									<label>
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" required id="input_504" />
+									<input class="form-control" aria-labelledby="comment-nous-avez-vous-connu" type="text" required id="input_504" />
 								</div>
 								<div class="form-group">
 									<label>
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									</label><textarea id="message" aria-labelledby="projet" class="form-control" rows="4" cols="50" required></textarea>
 								</div> 
-								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+								<button role="button" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									Envoyer
 								</button>
 							</form>
