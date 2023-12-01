@@ -90,11 +90,12 @@ a:hover {
     right: 0;
 }
 
-/*.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}*/
+.b-parallax {
+    background-attachment: fixed;
+}
+
 .d-bloc {
-    color:black;
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -117,6 +118,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
+.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -632,11 +634,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-.logo {
-    background-color: white;
-    border-radius: 50%;
-}
-
 h1,
 h2,
 h3,
@@ -700,11 +697,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-    color:  #364577;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.4em;
 }
 
@@ -751,6 +747,11 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
+.black-background {
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 40px 40px 40px 40px;
+}
+
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -791,11 +792,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #cb4c11!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #a53e0e!important;
 }
 
 .icon-dark-slate-blue {
@@ -1026,9 +1027,23 @@ h4 {
         text-align: center;
     }
 }
-
+.logo {
+    background-color: white;
+    border-radius: 45%;
+}
 #bloc-2-services blockquote p, #bloc-2-services blockquote footer {
     font-size: 20px;
     color:#575757;
     font-style: italic;
+}
+.img-responsive {
+    margin:auto;
+}
+#bloc-8 {
+    background-color: #cb4c11;
+}
+.text-center-blue {
+    color: #FFFFFF!important;
+    display:flex;
+    justify-content: center;
 }
