@@ -75,19 +75,21 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-								<div role=group aria-labelledby="coordonnees">
+							<form id="form_1" novalidate>
+								<div class="form-group" role=group aria-labelledby="coordonnees">
 									<label for="name">
 										Nom
 									</label>
-									<input id="name" type="text" placeholder="John Doe" aria-describedby="nom-format" aria-required="true" class="form-control" required />
-									<span id="nom-format" class="hidden">John Doe/span>
+									<input id="name" type="text" placeholder="John Doe" aria-label="nom-format" aria-required="true" class="form-control" required />
+									<span id="nom-format" class="hidden">John Doe</span>
 								</div>
+								<div class="form-group">
 									<label for="email">
 										Adresse email
 									</label>
 									<input id="email" placeholder="xxxx@email.xx" aria-describedby="email-format" aria-required="true" aria-invalid="false" class="form-control" type="email" required />
 									<span id="email-format" class="hidden">xxxx@email.xx</span>
+								</div>
 								<div class="form-group">
 									<label>
 										Comment nous avez-vous connu ?
@@ -127,22 +129,22 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#"><span class="fa fa-twitter icon-md"></span><span class="sr-only">Twitter</span></a>
+									<a class="social" href="https://twitter.com/?lang=fr" aria-label="Twitter"><i class="fa fa-twitter icon-md"></i></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#"><span class="fa fa-facebook icon-md"></span><span class="sr-only">Facebook</span></a>
+									<a class="social" href="https://www.facebook.com/?locale=fr_FR" aria-label="Facebook"><i class="fa fa-facebook icon-md"></i></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#"><span class="fa fa-dribbble icon-md"></span><span class="sr-only">Dribble</span></a>
+									<a class="social" href="https://dribbble.com/" aria-label="Dribble"><i class="fa fa-dribbble icon-md"></i></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#"><span class="fa fa-instagram icon-md"></span><span class="sr-only">Instagram</span></a>
+									<a class="social" href="https://www.instagram.com/" aria-label="Instagram"><i class="fa fa-instagram icon-md"></i></a>
 								</div>
 							</div>
 						</div>

@@ -761,10 +761,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
     background-color: #cb4c11;
 }
@@ -1044,4 +1040,7 @@ h4 {
 #bloc-7 .row {
     display: flex;
     flex-direction: column;
+}
+.tx-tangerine {
+    color: #cb4c11!important;
 }
