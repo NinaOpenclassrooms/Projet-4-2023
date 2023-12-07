@@ -768,7 +768,9 @@ h4 {
 .tc-white {
     color: #FFFFFF!important;
 }
-
+.tc-tangerine {
+    color: #cb4c11!important;
+}
 .btn-atomic-tangerine {
     background: #cb4c11;
     color: #FFFFFF!important;
@@ -1040,7 +1042,4 @@ h4 {
 #bloc-7 .row {
     display: flex;
     flex-direction: column;
-}
-.tx-tangerine {
-    color: #cb4c11!important;
 }
