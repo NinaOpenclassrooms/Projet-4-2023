@@ -1046,3 +1046,6 @@ header a:hover, a:focus, #bloc-7 button:focus {
 .d-bloc a:focus .icon-md {
     color:#FFFFFF;
 }
+a[data-lightbox]:focus img {
+    opacity: 0  .4;
+}   
