@@ -1047,5 +1047,5 @@ header a:hover, a:focus, #bloc-7 button:focus {
     color:#FFFFFF;
 }
 a[data-lightbox]:focus img {
-    opacity: 0  .4;
+    opacity: 0.4;
 }   
