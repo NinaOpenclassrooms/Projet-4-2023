@@ -3,4 +3,4 @@ Dans le cadre du parcours Développeur web de Openclassrooms, ce quatrième proj
 
 Le code est développé en HTML et CSS avec l'utilisation du framework Bootstrap.
 
-Pour accéder au site, clonez le dépôt puis cliquez sur le fichier index.html qui vous mènera à la page d'accueil ou visitez la page https://github.com/NinaOpenclassrooms/Projet4_OC_2023.
+Pour accéder au site, clonez le dépôt puis cliquez sur le fichier index.html qui vous mènera à la page d'accueil ou visitez la page https://ninaopenclassrooms.github.io/Projet4_OC_2023/.
